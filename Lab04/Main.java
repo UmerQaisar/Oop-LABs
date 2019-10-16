@@ -11,8 +11,9 @@ public class Main{
         al.add("F") ;
         al.add("G") ;
         al.add("H") ;
-        
-        Iterator it = al.iterator();
+        //We have list iterator because hasprevious method only exists in it.
+        //Iterator it = al.iterator();
+        ListIterator<String> it = al.listIterator();
         while(it.hasNext()){
             System.out.println(it.next());
         }
@@ -27,7 +28,8 @@ public class Main{
         al.set(6, "G+") ;
         al.set(7, "H+") ;
 
-        it = al.iterator();
+//         it = al.iterator();
+        it = al.listIterator();
         while(it.hasNext()){
             System.out.println(it.next());
         }
