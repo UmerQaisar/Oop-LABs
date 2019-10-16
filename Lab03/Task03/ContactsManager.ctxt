@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ContactsManager
+comment1.params=newContact
+comment1.target=void\ addCotacts(Contact)
+comment2.params=name
+comment2.target=void\ searchContacts(java.lang.String)
+numComments=3
